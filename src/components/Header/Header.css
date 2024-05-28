@@ -1,0 +1,17 @@
+.header {
+  position: fixed;
+  background-color: #333333;
+  color: #ffc500;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.container {
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+}
