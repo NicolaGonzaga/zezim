@@ -1,0 +1,29 @@
+.footer {
+  background-color: #333333;
+  color: #ffc500;
+  text-align: center;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.container {
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col-md-6 {
+  flex: 1 0 50%;
+  text-align: left;
+}
+
+.col-md-6 a {
+  text-decoration: none;
+  color: #007bff;
+}
