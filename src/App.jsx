@@ -1,6 +1,6 @@
-import Home from "./components/Home/Home";
 import { Route, Routes } from "react-router-dom";
-import Products from "./components/Products/Products";
+import Home from "./components/Page/Home/Home";
+import Products from "./components/Page/Products/Products";
 import Header from "./components/Layout/Header/Header";
 import Footer from "./components/Layout/Footer/Footer";
 
