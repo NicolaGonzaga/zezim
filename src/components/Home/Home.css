@@ -1,46 +1,57 @@
-.home {
+.hero {
+  display: flex;
   text-align: center;
-  width: 100%;
-}
-
-.content {
+  position: relative;
+  flex-direction: column;
   background-color: #ffc500;
-  padding: 80px 0;
-  text-align: center;
+  min-height: 500px;
 }
 
-.content h1 {
-  font-size: 3.5rem;
+.hero h1 {
+  font-size: 3rem;
+  margin-top: 80px;
   margin-bottom: 20px;
 }
 
-.content p {
-  font-size: 1.2rem;
+.hero h2 {
+  margin-bottom: 80px;
+}
+
+.hero p {
+  font-size: 1rem;
   line-height: 1.5;
   margin-bottom: 70px;
 }
 
-.content .form-control {
-  width: 50%;
-  max-width: 200px;
-  padding: 15px;
-  font-size: 1.4rem;
+.content {
+  gap: 20px;
+}
+
+.hero .form-control {
+  width: 40%;
+  height: 48px;
   border-radius: 8px;
+  font-weight: lighter;
+  box-sizing: border-box;
+  color: rgb(51, 51, 51);
+  background-color: rgb(255, 255, 255);
+  line-height: 20px;
+  border: 1px solid rgb(153, 153, 153);
+  padding: 20px;
   margin-right: 20px;
 }
 
-.content button {
-  background-color: black;
-  color: #ffc500;
-  padding: 15px 30px;
-  font-size: 1.4rem;
+.hero button {
+  background-color: rgb(255, 255, 255);
+  color: rgb(51, 51, 51);
+  font-size: 0.8rem;
+  padding: 16px;
   border: none;
   border-radius: 8px;
-
   cursor: pointer;
-  transition: background-color 0.3s ease;
 }
 
-.hero button:hover {
-  background-color: #ffc500;
+.error {
+  font-size: 14px;
+  color: red;
 }
