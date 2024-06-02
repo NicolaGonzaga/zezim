@@ -1,4 +1,3 @@
-
 export const searchAddress = async (endereco) => {
     if (!endereco.trim()) {
         throw new Error("Por favor, digite seu endereço.");
@@ -16,6 +15,6 @@ export const searchAddress = async (endereco) => {
         throw new Error("Ocorreu um erro ao fazer a requisição para a API.");
     }
 
-    const data = await response.json();
+    const data = response.json();
     return data;
 };
