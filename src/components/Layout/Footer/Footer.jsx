@@ -3,7 +3,7 @@ import "./Footer.css";
 function Footer() {
   return (
     <footer className="footer">
-      <div className="container">
+      <div className="container-footer">
         <p>
           <a href="#">Voltar ao topo</a>
         </p>
