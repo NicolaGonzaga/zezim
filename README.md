@@ -34,4 +34,4 @@ Este projeto foi inicializado com Vite e utiliza React.
 
 ## Deploy
 
-O projeto está hospedado no seguinte endereço: [Zezim na Vercel](XXXXX).
+O projeto está hospedado [aqui](https://zezim.vercel.app/).
