@@ -32,7 +32,7 @@ function Home() {
 
   return (
     <main>
-      <div className="hero">
+      <div className="container">
         <h1>Bebida rápida, gelada e no precinho?</h1>
         <h2>O Zézim entrega tudo.</h2>
         <div className="content">
