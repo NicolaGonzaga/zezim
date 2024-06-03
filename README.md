@@ -1,8 +1,37 @@
-# React + Vite
+# Zezim, o amigo da gente
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Sobre
 
-Currently, two official plugins are available:
+Zezim é uma aplicação de busca de bebidas onde o usuário pode inserir seu endereço em um campo na Home, ser redirecionado para a página de produtos e visualizar os produtos em cards.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Este projeto foi inicializado com Vite e utiliza React.
+
+## Tecnologias Utilizadas
+
+- **React**: Biblioteca JavaScript para a construção de interfaces de usuário.
+- **Vite**: Ferramenta de build rápida e minimalista.
+- **Vitest**: Framework de testes para o ambiente de desenvolvimento.
+- **React Testing Library**: Conjunto de utilitários para testar componentes React.
+- **JSONPlaceholder**: API fake usada para simular requisições de dados.
+
+## Como Executar o Projeto
+
+1. Instale as dependências:
+    ```sh
+    npm install
+    ```
+2. Execute a aplicação:
+    ```sh
+    npm run dev
+    ```
+
+## Como Executar os Testes
+
+1. Execute os testes:
+    ```sh
+    npm run test:ui
+    ```
+
+## Deploy
+
+O projeto está hospedado no seguinte endereço: [Zezim na Vercel](XXXXX).
