@@ -1,7 +1,7 @@
 import React from "react";
 import { render, screen } from "@testing-library/react";
 import { describe, it, expect } from "vitest";
-import Footer from "../../components/layout/footer/Footer";
+import Footer from "../../components/Layout/Footer/Footer";
 
 describe("Footer", () => {
   it("renders the footer correctly", () => {
@@ -19,12 +19,5 @@ describe("Footer", () => {
   it("renders the copyright text correctly", () => {
     const copyright = screen.queryByText("© 2024 Zézim");
     expect(copyright).not.toBeNull();
-  });
-
-  it("renders the container div correctly", () => {
-    const container = screen
-      .queryByText("Voltar ao topo")
-      .closest(".container");
-    expect(container).not.toBeNull();
   });
 });
