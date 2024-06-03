@@ -1,57 +1,59 @@
-.hero {
+@import "../../../index.css";
+
+.container {
   display: flex;
   text-align: center;
   position: relative;
   flex-direction: column;
-  background-color: #ffc500;
-  min-height: 500px;
+  background-color: var(--accent-yellow);
+  min-height: 31.25rem;
 }
 
-.hero h1 {
+.container h1 {
   font-size: 3rem;
-  margin-top: 80px;
-  margin-bottom: 20px;
+  margin-top: 5rem;
+  margin-bottom: 1.25rem;
 }
 
-.hero h2 {
-  margin-bottom: 80px;
+.container h2 {
+  margin-bottom: 5rem;
 }
 
-.hero p {
+.container p {
   font-size: 1rem;
   line-height: 1.5;
-  margin-bottom: 70px;
+  margin-bottom: 4.375rem;
 }
 
-.content {
-  gap: 20px;
-}
-
-.hero .form-control {
-  width: 40%;
-  height: 48px;
-  border-radius: 8px;
-  font-weight: lighter;
-  box-sizing: border-box;
-  color: rgb(51, 51, 51);
-  background-color: rgb(255, 255, 255);
-  line-height: 20px;
-  border: 1px solid rgb(153, 153, 153);
-  padding: 20px;
-  margin-right: 20px;
-}
-
-.hero button {
-  background-color: rgb(255, 255, 255);
-  color: rgb(51, 51, 51);
+.container button {
+  background-color: var(--background-light);
+  color: var(--text-dark);
   font-size: 0.8rem;
-  padding: 16px;
+  padding: 1rem;
   border: none;
-  border-radius: 8px;
+  border-radius: 0.5rem;
   cursor: pointer;
 }
 
+.container .form-control {
+  width: 40%;
+  height: 3rem;
+  border-radius: 0.5rem;
+  font-weight: lighter;
+  box-sizing: border-box;
+  color: var(--text-dark);
+  background-color: var(--background-light);
+  line-height: 1.25rem;
+  border: 1px solid var(--border-light);
+  padding: 1.25rem;
+  margin-right: 1.25rem;
+}
+
+.content {
+  gap: 1.25rem;
+}
+
 .error {
-  font-size: 14px;
-  color: red;
+  font-size: 0.875rem;
+  color: var(--error-red);
 }

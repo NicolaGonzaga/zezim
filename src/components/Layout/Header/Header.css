@@ -1,53 +1,51 @@
+@import "../../../index.css";
+
 .header {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
-  padding: 10px 100px 0px;
-  background-color: rgb(28, 28, 28);
-  color: #ffc500;
+  padding: 0.625rem 6.25rem 0;
+  background-color: var(--background-dark);
+  color: var(--accent-yellow);
   margin: 0 auto;
   justify-content: space-between;
 }
 
-.text-router {
-  text-decoration: none;
-  color: #ffc500;
-}
-
 .logo {
-  width: 100px;
-  height: 100px;
+  display: flex;
+  width: 6.25rem;
+  height: 6.25rem;
 }
 
 .button {
-  border-radius: 24px;
-  font-size: 14px;
-  line-height: 20px;
+  border-radius: 1.5rem;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
   text-transform: uppercase;
-  background-color: white;
-  color: #333333;
-  border: 1px solid rgb(0, 0, 0);
-  padding: 0px;
-  width: 85px;
-  min-width: 0px;
-  height: 48px;
+  background-color: var(--background-light);
+  color: var(--text-dark);
+  border: 1px solid var(--border-color);
+  padding: 0;
+  width: 5.3125rem;
+  min-width: 0;
+  height: 3rem;
   align-self: center;
   cursor: pointer;
 }
 
 .button:hover {
-  background-color: #ffc500; /* Cor de fundo amarela */
-  color: rgb(28, 28, 28); /* Cor do texto (mantida a mesma) */
+  background-color: var(--accent-yellow);
+  color: var(--background-dark);
 }
 
 @media (max-width: 37.5rem) {
   .header {
     flex-direction: column;
     align-items: center;
-    padding: 10px;
+    padding: 0.625rem;
   }
 
   .header > * {
-    margin: 15px 0;
+    margin: 0.9375rem 0;
   }
 }

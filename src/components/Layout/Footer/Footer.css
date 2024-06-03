@@ -1,3 +1,5 @@
+@import "../../../index.css";
+
 .footer {
   display: flex;
   width: 100%;
@@ -5,11 +7,11 @@
   align-items: center;
   justify-content: center;
   text-align: center;
-  background-color: rgb(28, 28, 28);
-  color: #ffc500;
+  background-color: var(--background-dark);
+  color: var(--accent-yellow);
 }
 
-.container a {
+.container-footer a {
   text-decoration: none;
-  color: #2386f0;
+  color: var(--text-link);
 }
