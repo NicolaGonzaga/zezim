@@ -30,22 +30,27 @@ function Home() {
     }
   };
 
+  const handleKeyDown = (event) => {
+    if (event.key === "Enter") {
+      handleSearch();
+    }
+  };
+
   return (
-    <main>
-      <div className="container">
-        <h1>Bebida rápida, gelada e no precinho?</h1>
-        <h2>O Zézim entrega tudo.</h2>
-        <div className="content">
-          <input
-            className="form-control"
-            type="text"
-            placeholder="Digite seu endereço"
-            value={endereco}
-            onChange={handleInputChange}
-          />
-          <button onClick={handleSearch}>Buscar Produtos</button>
-          {erro && <p className="error">{erro}</p>}
-        </div>
+    <main className="container">
+      <h1>Bebida rápida, gelada e no precinho?</h1>
+      <h2>O Zézim entrega tudo.</h2>
+      <div className="content">
+        <input
+          className="form-control"
+          type="text"
+          placeholder="Digite seu endereço"
+          value={endereco}
+          onChange={handleInputChange}
+          onKeyDown={handleKeyDown}
+        />
+        <button onClick={handleSearch}>Buscar Produtos</button>
+        {erro && <p className="error">{erro}</p>}
       </div>
     </main>
   );
