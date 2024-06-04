@@ -11,7 +11,9 @@ describe("Footer", () => {
   });
 
   it("renders the copyright text correctly", () => {
-    const copyright = screen.queryByText("© 2024 Zézim");
+    const currentYear = new Date().getFullYear();
+    const copyrightText = `© ${currentYear} Zézim`;
+    const copyright = screen.queryByText(copyrightText);
     expect(copyright).not.toBeNull();
   });
 });
