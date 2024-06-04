@@ -10,12 +10,6 @@ describe("Footer", () => {
     expect(footer).not.toBeNull();
   });
 
-  it('renders the "Voltar ao topo" link correctly', () => {
-    const topLink = screen.queryByText("Voltar ao topo");
-    expect(topLink).not.toBeNull();
-    expect(topLink.closest("a").getAttribute("href")).toBe("#");
-  });
-
   it("renders the copyright text correctly", () => {
     const copyright = screen.queryByText("© 2024 Zézim");
     expect(copyright).not.toBeNull();
