@@ -3,7 +3,6 @@
 .footer {
   display: flex;
   width: 100%;
-  position: absolute;
   align-items: center;
   justify-content: center;
   text-align: center;
